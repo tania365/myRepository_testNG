@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MicroTech Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Java/workspaceIntelliJ/class22_TestNG">
+        <classes>
+            <class name="test.VerifyCustomerIdAppearsInHomePage">
+                <methods>
+                    <include name="verifyCustomerIdAppearsInHomePage"/>
+                    <include name="verifyMySecondTest"/>
+                </methods>
+            </class>
+            <class name="test.Verify_CustomerLoginFunctionality">
+                <methods>
+                    <include name="verifyCustomerLoginFuntionality"/>
+                </methods>
+            </class>
+            <class name="test.Verify_EmployeeLoginFunctionality">
+                <methods>
+                    <include name="verifyEmployeeLoginFunctionality"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
